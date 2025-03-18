@@ -27,8 +27,8 @@
 			}
 		],
 		"no-console": "error",
-		// 'no-constructor-return': 'error', // brauchen wir bei dto zu model
-		// 'no-duplicate-imports': 'off', // TODO check
+		"no-constructor-return": "error", // brauchen wir bei dto zu model
+		// "no-duplicate-imports": "off", // TODO check
 		"no-multi-spaces": "error",
 		"no-promise-executor-return": "error",
 		"no-template-curly-in-string": "error",
@@ -42,16 +42,7 @@
 		"@typescript-eslint/ban-types": "error",
 		"@typescript-eslint/consistent-generic-constructors": "error",
 		"@typescript-eslint/consistent-type-imports": "error",
-		"@typescript-eslint/explicit-function-return-type": [
-			"error",
-			{
-				"allowExpressions": false,
-				"allowTypedFunctionExpressions": true,
-				"allowHigherOrderFunctions": false,
-				"allowDirectConstAssertionInArrowFunctions": false,
-				"allowConciseArrowFunctionExpressionsStartingWithVoid": false
-			}
-		],
+		"@typescript-eslint/explicit-function-return-type": "error",
 		"@typescript-eslint/explicit-member-accessibility": [
 			"error",
 			{

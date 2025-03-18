@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const App = (): JSX.Element => {
+export const App = (): React.JSX.Element => {
 	const [count, setCount] = useState(0);
 
 	return (

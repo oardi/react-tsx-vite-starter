@@ -1,20 +1,38 @@
 {
 	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+
 		"allowJs": false,
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": false,
 		"forceConsistentCasingInFileNames": true,
-		"isolatedModules": true,
 		"jsx": "react-jsx",
-		"lib": ["DOM", "DOM.Iterable", "ESNext"],
-		"module": "ESNext",
-		"moduleResolution": "Node",
-		"noEmit": true,
 		"resolveJsonModule": true,
-		"skipLibCheck": true,
-		"strict": true,
+
 		"target": "ESNext",
-		"useDefineForClassFields": true
+		"useDefineForClassFields": true,
+		"module": "ESNext",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"skipLibCheck": true,
+
+		/* Bundler mode */
+		"moduleResolution": "Node",
+		"allowImportingTsExtensions": true,
+		"isolatedModules": true,
+		"moduleDetection": "force",
+		"noEmit": true,
+
+		/* Linting */
+		"strict": true,
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
 	},
 	"include": ["src", "vite.config.ts"]
 }
